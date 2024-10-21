@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Data } from '../types';
 import { searchData } from '../services/search';
-import { Toaster, toast } from "sonner";
+import { toast } from "sonner";
 
 export const Search = ( { initialData }: { initialData: Data; } ) => {
 
